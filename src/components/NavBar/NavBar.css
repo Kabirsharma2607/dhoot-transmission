@@ -1,0 +1,51 @@
+/* NavBar.css */
+.nav-bar {
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.nav-gap {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-img {
+  object-fit: contain;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-user-info {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 2.5rem;
+  margin-top: auto;
+}
+
+.nav-user-text {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-user-bold {
+  font-weight: bold;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-svg {
+  width: 38px;
+  height: 38px;
+}
